@@ -1,0 +1,23 @@
+.dateTime {
+  font-size: $size-s;
+  flex-grow: 0;
+  color: $dark-grey;
+
+  &>div:first-child {
+    margin-bottom: .5rem;
+  }
+}
+
+@media (max-width: 570px) {
+  .dateTime {
+    display: flex;
+    margin-top: $size-s;
+    justify-content: space-around;
+    flex-grow: 1;
+    width: 100%;
+
+    &>div:first-child {
+      margin-bottom: 0;
+    }
+  }
+}

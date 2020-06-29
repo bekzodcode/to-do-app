@@ -1,0 +1,15 @@
+.action {
+  display: flex;
+  align-items: center;
+  padding: $size-xs 0;
+  border-bottom: .5px solid $grey;
+
+  p {
+    margin: 0;
+    flex-grow: 1;
+    padding: $size-xs;
+    color: white;
+    margin-right: $size-xs;
+    border-radius: $size-xs;
+  }
+}

@@ -1,0 +1,28 @@
+.removeAll-button {
+  border: none;
+  width: 100%;
+  padding: $size-xs;
+  margin-bottom: $size-m;
+  background-color: $light-grey;
+
+  &:hover {
+    background-color: $grey;
+  }
+}
+
+.add-button {
+  padding: $size-xs $size-l;
+  background-color: $cream;
+  color: $dark-grey;
+}
+
+.delete-button {
+  border: none;
+  padding: .5rem $size-m;
+  background-color: $grey;
+
+  img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

@@ -1,0 +1,35 @@
+.addAction {
+  form {
+    margin-top: $size-m;
+    display: flex;
+  }
+
+  input {
+    flex-shrink: 1;
+    flex-grow: 1; 
+    padding: $size-xs;
+    font-size: $size-m;
+    margin-right: $size-xs;
+    min-width: 4rem;
+    border: none;
+    outline: none;
+  }
+
+  .error-msg {
+    font-size: $size-s;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+  }
+}
+
+@media (max-width: 570px) {
+  .addAction {
+    form {
+      flex-direction: column;
+    }
+    input {
+      margin-right: 0;
+      margin-bottom: $size-xs;
+    }
+  }
+}

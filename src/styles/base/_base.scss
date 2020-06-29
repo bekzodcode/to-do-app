@@ -1,0 +1,44 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Verdana, sans-serif;
+  width: 100vw;
+}
+
+body {
+  width: 100%;
+  font-size: $size-m;
+  padding: $size-m;
+}
+
+button {
+  outline: none;
+  border: none;
+  background-color: $grey;
+  border-radius: .5rem;
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 300ms;
+}
+
+input {
+  border-radius: .5rem;
+}
+
+@media (max-width: 57rem) {
+  html {
+    font-size: 50%;  
+  }
+}
+
+
+
+
+
+
+
+
